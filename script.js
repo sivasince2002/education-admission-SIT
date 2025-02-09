@@ -11,17 +11,17 @@ document.getElementById("admissionForm").addEventListener("submit", function(eve
     document.getElementById("admissionForm").reset();
 });
 
-// Firebase Configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT.firebaseio.com",
-    projectId: "YOUR_PROJECT",
-    storageBucket: "YOUR_PROJECT.appspot.com",
-    messagingSenderId: "YOUR_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCs8zP1O0wcZzDxo9twW1_3FntpPCb7cC8",
+  authDomain: "education-admission-2025.firebaseapp.com",
+  databaseURL: "https://education-admission-2025-default-rtdb.firebaseio.com",
+  projectId: "education-admission-2025",
+  storageBucket: "education-admission-2025.firebasestorage.app",
+  messagingSenderId: "248055776639",
+  appId: "1:248055776639:web:046f5fcbd76a2b5594064a",
+  measurementId: "G-WGXSG2F0H4"
 };
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 let db = firebase.database();
